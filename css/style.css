@@ -1,0 +1,31 @@
+/* Variables */
+:root {
+  --primary-color: #22cb5c;
+  --secondary-color: #0b0d17;
+  --dark-color: #0a0826;
+  --medium-color: #3e3e3e;
+  --light-color: #6c6c6c;
+}
+
+/* Custom Utilities */
+.spectra-bg-primary {
+  background-color: var(--primary-color);
+}
+.spectra-text-primary {
+  color: var(--primary-color);
+}
+.spectra-bg-secondary {
+  background-color: var(--secondary-color);
+}
+.spectra-text-secondary {
+  color: var(--secondary-color);
+}
+.spectra-text-dark {
+  color: var(--dark-color);
+}
+.spectra-text-medium {
+  color: var(--medium-color);
+}
+.spectra-text-light {
+  color: var(--light-color);
+}
