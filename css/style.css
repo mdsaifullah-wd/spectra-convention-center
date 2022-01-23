@@ -1,3 +1,7 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
 /* Variables */
 :root {
   --primary-color: #22cb5c;
@@ -6,7 +10,6 @@
   --medium-color: #3e3e3e;
   --light-color: #6c6c6c;
 }
-
 /* Custom Utilities */
 .spectra-bg-primary {
   background-color: var(--primary-color);
