@@ -1,7 +1,7 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* ;
+;
+
+ */
 /* Variables */
 :root {
   --primary-color: #22cb5c;
@@ -31,4 +31,18 @@ font-family: 'Roboto', sans-serif; */
 }
 .spectra-text-light {
   color: var(--light-color);
+}
+
+/* Fonts */
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-manrope {
+  font-family: "Manrope", sans-serif;
 }
