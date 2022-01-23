@@ -46,3 +46,18 @@
 .font-manrope {
   font-family: "Manrope", sans-serif;
 }
+
+/* Section: Header */
+/* Navbar */
+.spectra-navbar {
+  padding: 2.5rem 0;
+}
+.spectra-logo:hover {
+  color: var(--medium-color);
+}
+.spectra-nav-item {
+  margin: 0 0.313rem;
+}
+.spectra-nav-link:hover {
+  color: var(--primary-color);
+}
