@@ -96,3 +96,6 @@ li {
 .accordion-button:focus {
   box-shadow: none;
 }
+.faq-image {
+  background: url("../images/people.png") no-repeat center center/cover;
+}
