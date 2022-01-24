@@ -94,6 +94,17 @@ li {
   z-index: 3;
 }
 
+/* Our Services */
+.services div {
+  transition: transform 200ms ease-in-out, background 100ms ease-in-out,
+    color 100ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.services div:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
 /* Our Package */
 .our-package .package-features {
   padding: 0;
