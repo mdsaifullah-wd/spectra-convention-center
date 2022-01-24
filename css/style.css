@@ -82,8 +82,16 @@ li {
   height: 80vh;
 }
 .overlay {
-  z-index: 3;
+  z-index: 1;
   opacity: 0.4;
+}
+.text {
+  z-index: 2;
+}
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3;
 }
 
 /* Our Package */
