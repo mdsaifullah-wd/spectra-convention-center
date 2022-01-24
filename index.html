@@ -298,6 +298,27 @@
     </header>
 
     <main>
+      <!-- Toast -->
+      <button
+        type="button"
+        class="btn btn-light px-5 py-2 spectra-text-primary"
+      ></button>
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded mr-2" alt="..." />
+          <strong class="mr-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button
+            type="button"
+            class="ml-2 mb-1 close"
+            data-dismiss="toast"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="toast-body">Hello, world! This is a toast message.</div>
+      </div>
       <!-- Our Services -->
       <section class="our-package spectra-mb-lg">
         <div class="container">
@@ -860,10 +881,25 @@
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      var option = {
+        animation: true,
+        delay: 2000,
+      };
+      var toastElList = [].slice.call(document.querySelectorAll(".toast"));
+      var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl, option);
+      });
+      function Noty() {
+        for (var i = 0; i < toastList.length; i++) {}
+      }
+    </script>
   </body>
 </html>
