@@ -10,6 +10,11 @@
   --medium-color: #3e3e3e;
   --light-color: #6c6c6c;
 }
+
+/* Global CSS */
+li {
+  list-style: none;
+}
 /* Custom Utilities */
 .spectra-bg-primary {
   background-color: var(--primary-color);
@@ -47,6 +52,15 @@
   font-family: "Manrope", sans-serif;
 }
 
+/* Border Radius */
+.spectra-rounded-3 {
+  border-radius: 30px;
+}
+/* Margins */
+.spectra-mb-lg {
+  margin-bottom: 6.25rem;
+}
+
 /* Section: Header */
 /* Navbar */
 .spectra-navbar {
@@ -60,4 +74,15 @@
 }
 .spectra-nav-link:hover {
   color: var(--primary-color);
+}
+
+/* Our Package */
+.our-package .package-features {
+  padding: 0;
+}
+.our-package .fa-check {
+  background-color: #5243c228;
+}
+.our-package .exclusive {
+  background-color: #bf3312;
 }
