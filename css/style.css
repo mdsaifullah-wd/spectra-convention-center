@@ -86,3 +86,13 @@ li {
 .our-package .exclusive {
   background-color: #bf3312;
 }
+
+/* FAQ */
+.accordion-button:not(.collapsed) {
+  color: var(--medium-color);
+  background-color: #fff;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
