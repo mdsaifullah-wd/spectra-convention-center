@@ -76,6 +76,16 @@ li {
   color: var(--primary-color);
 }
 
+/* Carousel */
+.slide {
+  width: 100%;
+  height: 80vh;
+}
+.overlay {
+  z-index: 3;
+  opacity: 0.4;
+}
+
 /* Our Package */
 .our-package .package-features {
   padding: 0;
